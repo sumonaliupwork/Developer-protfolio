@@ -2,53 +2,53 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-h1{
-    font-size: 45px;
-    line-height: 40px;
-}
-h3 {
-    padding-bottom: 10px;
-    font-size: 20px;
-    padding-top: 40px;
-}
-
-p {
-    line-height: 25px;
-    padding-bottom: 20px;
-}
-.h1-color{
-    color: orange;
-}
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
 }
-.half-width{
-    width: 50%;
-    padding-left: 5%;
+.top-banner{ 
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat; 
 }
-.half-width img{
-    width: 76%;
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+.color-orange{
+    color: orange;
+}
+
+h3 {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.top-bn-half-width {
+   
+    width: 42%;
+    padding-left: 70px;
+}
+.top-bn-half-width img{
+    width: 80%;
+}
+p {
+    padding-bottom: 25px;
+    line-height: 25px;
 }
 .link-button{
-    text-decoration: none; 
-    background-image: linear-gradient(#e49e8f, rgb(211, 78, 54));
+    text-decoration: none;
+    background-image: linear-gradient(#e7745a, tomato);
+    color: white;
     padding: 10px 40px;
     border-radius: 5px;
-    color: white;
     text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 1.1px;
-}
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+    font-weight: 400;
+    font-size: 20px;
 }
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right;  
 }
 .experience-area{
     background-image: url(images/exp-bg.png);
@@ -56,22 +56,30 @@ p {
     background-position: left;
 }
 .experience-item{
+    width: 46%;
+    margin: 2%;
     box-shadow: 10px 10px 40px gray;
-    width: 40%;
-    margin: 5%;
-    padding-left: 10px;
     border-radius: 10px;
+    padding-left: 30px;
 }
-#web-dev-exp{
-    border-left: 7px solid;
-    border-image: linear-gradient(blue, cyan);
+#we-dev-exp{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, green);
     border-image-slice: 1;
+    margin-right: 75px;
+    padding-right: 20px;
 }
 #full-stack-exp{
-    border-left: 7px solid;
-    border-image: linear-gradient(salmon,tomato);
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, red);
     border-image-slice: 1;
+    margin-left: 68px; 
+    padding: 15px 20px 70px 25px;
 }
-footer p{
+.flexible-container h2{
+    font-size: 20px;
+}
+footer h3{
     text-align: center;
+    font-size: 15px;
 }
